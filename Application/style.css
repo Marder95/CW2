@@ -85,7 +85,7 @@ body {
     padding: 0px;
     margin: 0px;
     float: left;
-    text-align: center;
+    position: relative;
 }
 
 .serv {
@@ -181,4 +181,22 @@ body {
     left: 13%;
     right: 13%;
     min-width: 70px;
+}
+
+.facts {
+    text-align-last: center;
+    width: calc(100% - 20px);
+    height: 50%;
+    font-size: 15px;
+    position: absolute;
+    top: 15px;
+    bottom: -15px;
+    left: 5%;
+    right: 5%;
+}
+
+.options {
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
 }
