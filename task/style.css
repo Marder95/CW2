@@ -1,0 +1,28 @@
+#box img {
+    position: absolute;
+    display: block;
+/*
+    opacity: 1;
+    animation: fadein 1s;
+    animation-delay: 1s;
+    animation: fadeout 6s;
+*/
+    height: auto; 
+    width: auto; 
+    max-height: 604px;
+}
+
+/*
+@keyframes fadeIn {
+  from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+*/
+
+/*@media (max-height: 768px) {}*/
